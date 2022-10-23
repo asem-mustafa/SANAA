@@ -1,0 +1,127 @@
+.dd{
+	width: 300px;
+height: 30px;
+	outline:none;
+	border:none;
+	background: #111;
+	margin: 4px 0;
+	border-radius: 4px;
+	padding:4px;
+	color: #fff;
+	display:inline-block;
+}
+.dd:focus{
+	background: #090001;
+	transform: scale(1.1 );
+}
+#form1{background: #7A7676 ; height: 400px;}
+#leg{margin:auto}
+#img1{border-radius: 30px}
+
+#fie{width: 300px;height:600px;margin:auto;border-top-right-radius:2em;border-bottom-left-radius: 2em;background: #B1B1B1;border:#B1B1B1 3px outset;-webkit-box-shadow:10px 10px 5px #888888}
+
+#fie2{width: 300px;height:350px;margin: auto;margin-top: 150px;border-top-right-radius:2em;border-bottom-left-radius: 2em;background: #B1B1B1;border:#B1B1B1 3px outset;-webkit-box-shadow:10px 10px 5px #888888}
+
+#hh{text-align: center;margin-bottom: 30px}
+label,input{margin-bottom: 7px ;display: block}
+#sub{margin: auto; margin-top: 50px;width: 180px;height: 40px
+;border: #000000 2px outset ;border-radius:5px;
+	
+}
+
+#img1{width: 150px;height: 150px;border-radius: 120px}
+
+
+#div2_1,#div4_1,#div5_1,#div3_1,#div8_1,#div11_1,#div12_1,#div13_1,#div14_1{width: 1100px;margin: auto;background:#F3F3F3;border: #D8D8D8 2px outset}
+#divul2_1{background: #4B4B4B ;height: 40px;margin-bottom: 20px}
+
+#ul2_1{list-style: none;}
+.li2_1{width: 200px;float:right;
+    height: 40px;
+	line-height: 40px;
+	
+   }
+#ul2_2{list-style: none;}
+.li2_2{width: 200px;	
+    height: 40px;
+	line-height: 40px;
+    text-align:center;
+    background: #4B4B4B;
+    text-decoration: underline;}
+ul ul {display: none;margin: 0;padding: 0}
+li:hover > ul{
+	display: block;
+}
+a{color:#EBEBEB;text-decoration: none;font-family: tohama;font-size: 20px;}
+#img2_1,#img4_1,#img11_1,#img12_1{margin-right: 20px;width:95%;border-top-right-radius:5em;border-bottom-left-radius: 5em;border:#777676 2px inset}
+#pre2_1,#pre2_2{font-size: 20px ;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+#h2_1{font-size: 30px ;margin-right: 20px;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+#pre2_2{text-align: center}
+
+#video3_1,#video3_2,#video3_3{margin-right: 20px;width:95%;border-radius:50px ;margin-bottom: 40px }
+#video3_1{margin-top: 100px}
+
+
+
+
+.h4_1,#h5_1,#h3_1,#h11_1,#h12_1,#h2_8_1{font-size: 30px ;margin-right: 50px;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+#per4_1,.li4_1,#pre5_1,#pre3_1,#pre11_1,#pre12_1{font-size: 20px ;margin-right: 50px;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+
+#a3_1{font-size: 20px; color:blue;text-decoration: underline;}
+
+#div13_2{width: 50%;height: 300px;float: right;margin-bottom: 50px }
+#div13_3{width: 50%;height: 300px;float: left; margin-bottom: 50px}
+#div13_4{margin-bottom: 50px	 }
+.img13_1{width: 150px;height: 150px;border-radius: 120px;border: #5D5D5D groove 5px;}
+.table13_1{ margin: auto;border: 2px solid #000000 ;border-collapse: collapse;width: 60px;
+	height: 30px;}
+
+
+
+.slider{
+	margin:auto;
+	width:500px;
+    overflow: hidden; margin-top: 200px;margin-bottom: 50px}
+#ul14_1{ 
+	margin: 0;
+	padding: 0;
+	width:5500px;
+	list-style: none;
+	position: relative;
+	animation: sliding 20s ease-in-out infinite;
+}
+.li14_1{
+	float: left;
+	position: relative;}
+#ul14_1:hover{animation-play-state: paused;}
+h5{
+	background:
+		#8F8889;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+	font-style: italic;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+}
+@keyframes sliding{
+	0%{left:0;}
+	10%{left:-500px;}
+	20%{left:-1000px;}
+	30%{left:-1500px;}
+	40%{left:-2000px;}
+	50%{left:-2500px;}
+	60%{left:-3000px;}
+	70%{left:-3500px;}
+	80%{left:-4000px;}
+	90%{left:-4500px;}
+	100%{left:-5000;}
+	
+}
+
+
